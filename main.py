@@ -8,7 +8,7 @@ from schemas import UserResponse
 from utils import ALGORITHM, SECRET_KEY, get_password_hash, verify_password, create_access_token
 
 app = FastAPI()
-# d
+
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 def get_db():
